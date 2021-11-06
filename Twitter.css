@@ -1,0 +1,169 @@
+h5 {
+    margin: 0;
+}
+.sideBarOption i {
+    font-size: x-large;
+}
+.sideBarOption h5 {
+    margin-left: 29px;
+}
+.twitter-avatar {
+    font-size: 50px;
+    color: #1DA1F2;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.sideBarOption {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.active {
+    color: #1DA1F2;
+}
+.sideBarOption:hover {
+    color: #1DA1F2;
+}
+.sideBar .container {
+    display: grid;
+    justify-content: center;
+}
+.btn {
+    background-color: #1DA1F2;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 999px;
+}
+.user-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.user-info .three-dots {
+    font-size: small;
+    display: grid;
+    align-self: center;
+}
+.newsFeedHeading {
+    border-bottom: 1px solid #eff2f5;
+}
+.newsFeedHeading h3 {
+    margin-left: 20px;
+}
+.newsFeedTop {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.newsFeedTop form {
+    flex: 1;
+    display: flex;
+}
+.newsFeedTop form input {
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+}
+.newsFeedBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eff2f5;
+}
+.newsFeedBottom .icons i {
+    padding: 5px;
+    color: #1DA1F2;
+    font-size: large;
+}
+.newsFeedBottom .icons {
+    margin-left: 60px;
+}
+.postTop {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+.postBottom {
+    margin-left: 70px;
+    position: relative;
+    top: -30px;
+}
+.postBottom p {
+    display: inline;
+}
+.postOptions {
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    cursor: pointer;
+}
+.postOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eff2f5;
+}
+.postOption p {
+    margin-bottom: 0;
+}
+.postBottom p {
+    margin-bottom: 0;
+}
+.postBottom img {
+    border-radius: 20px;
+}
+.bgColor {
+    background-color: white;
+}
+#remove {
+    padding: 0;
+}
+.searchInput {
+    display: flex;
+    background-color: #eff2f5;
+    padding: 10px;
+    border-radius: 999px;
+}
+.searchInput input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+.trendingList {
+    background-color: #eff2f5;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.trendHeading {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.trendHeading i {
+    font-size: x-large;
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.trendHeading h4 {
+    margin: 0;
+}
+.trendingItems {
+    border-top: 1px solid rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.trendingItems h6 {
+    color: #1DA1F2;
+}
